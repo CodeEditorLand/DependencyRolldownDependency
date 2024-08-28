@@ -1,0 +1,36 @@
+[submodule "Benchcases"]
+	path = Benchcases
+	url = ssh://git@github.com/CodeEditorLand/Benchcases.git
+[submodule "BenchmarkResultsStorage"]
+	path = BenchmarkResultsStorage
+	url = ssh://git@github.com/CodeEditorLand/BenchmarkResultsStorage.git
+[submodule "Metric"]
+	path = Metric
+	url = ssh://git@github.com/CodeEditorLand/Metric.git
+[submodule "Repros"]
+	path = Repros
+	url = ssh://git@github.com/CodeEditorLand/Repros.git
+[submodule "Rolldown"]
+	path = Rolldown
+	url = ssh://git@github.com/CodeEditorLand/Rolldown.git
+[submodule "RolldownOnDeno"]
+	path = RolldownOnDeno
+	url = ssh://git@github.com/CodeEditorLand/RolldownOnDeno.git
+[submodule "RolldownPluginNodePolyfills"]
+	path = RolldownPluginNodePolyfills
+	url = ssh://git@github.com/CodeEditorLand/RolldownPluginNodePolyfills.git
+[submodule "RolldownViteEcoCi"]
+	path = RolldownViteEcoCi
+	url = ssh://git@github.com/CodeEditorLand/RolldownViteEcoCi.git
+[submodule "String_wizard"]
+	path = String_wizard
+	url = ssh://git@github.com/CodeEditorLand/String_wizard.git
+[submodule "Testcase"]
+	path = Testcase
+	url = ssh://git@github.com/CodeEditorLand/Testcase.git
+[submodule "Vite"]
+	path = Vite
+	url = ssh://git@github.com/CodeEditorLand/Vite.git
+[submodule "VitePluginVue"]
+	path = VitePluginVue
+	url = ssh://git@github.com/CodeEditorLand/VitePluginVue.git
