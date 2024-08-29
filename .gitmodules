@@ -30,10 +30,6 @@ url = ssh://git@github.com/CodeEditorLand/RolldownPluginNodePolyfills.git
 path = RolldownViteEcoCi
 url = ssh://git@github.com/CodeEditorLand/RolldownViteEcoCi.git
 
-# [submodule "StringWizard"]
-# path = StringWizard
-# url = ssh://git@github.com/CodeEditorLand/StringWizard.git
-
 [submodule "Testcase"]
 path = Testcase
 url = ssh://git@github.com/CodeEditorLand/Testcase.git
@@ -45,6 +41,11 @@ url = ssh://git@github.com/CodeEditorLand/Vite.git
 [submodule "VitePluginVue"]
 path = VitePluginVue
 url = ssh://git@github.com/CodeEditorLand/VitePluginVue.git
+
 [submodule "RolldownStarterStackblitz"]
-	path = RolldownStarterStackblitz
-	url = ssh://git@github.com/CodeEditorLand/RolldownStarterStackblitz.git
+path = RolldownStarterStackblitz
+url = ssh://git@github.com/CodeEditorLand/RolldownStarterStackblitz.git
+
+[submodule "StringWizard"]
+path = StringWizard
+url = ssh://git@github.com/CodeEditorLand/StringWizard.git
