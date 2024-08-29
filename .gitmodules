@@ -30,9 +30,9 @@ url = ssh://git@github.com/CodeEditorLand/RolldownPluginNodePolyfills.git
 path = RolldownViteEcoCi
 url = ssh://git@github.com/CodeEditorLand/RolldownViteEcoCi.git
 
-[submodule "String_wizard"]
-path = String_wizard
-url = ssh://git@github.com/CodeEditorLand/String_wizard.git
+[submodule "StringWizard"]
+path = StringWizard
+url = ssh://git@github.com/CodeEditorLand/StringWizard.git
 
 [submodule "Testcase"]
 path = Testcase
