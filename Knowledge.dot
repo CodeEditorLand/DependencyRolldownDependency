@@ -1,0 +1,1629 @@
+digraph G {
+  newrank=true;
+  rankdir=LR;
+  splines=ortho;
+  overlap=false;
+  nodesep=0.5;
+  ranksep=0.5;
+  concentrate=true;
+  graph [bgcolor="#f9f9f9", color="#888888", penwidth=2, fontname="Arial"];
+  node [fontname="Arial", fontsize=14, style=filled, margin="0.3,0.2"];
+  edge [fontname="Arial", fontsize=10, color="#555555", fontcolor="gray"];
+  subgraph cluster_1 {
+    label="root";
+    style=filled; color="#5DADE2"; fillcolor="#5DADE220";
+    "n0" [label="root", shape=folder, fillcolor="#5DADE2", penwidth=1.5];
+  subgraph cluster_2 {
+    label="VitePluginVue";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n218" [label="VitePluginVue", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  subgraph cluster_3 {
+    label="playground";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n219" [label="playground", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_4 {
+    label="vue-sourcemap";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n231" [label="vue-sourcemap", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_5 {
+    label="vue-server-origin";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n230" [label="vue-server-origin", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_6 {
+    label="vue-lib";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n229" [label="vue-lib", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_7 {
+    label="vue-legacy";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n228" [label="vue-legacy", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_8 {
+    label="vue-jsx";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n227" [label="vue-jsx", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_9 {
+    label="vue-custom-id";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n226" [label="vue-custom-id", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_10 {
+    label="vue-asset-base";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n225" [label="vue-asset-base", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_11 {
+    label="vue";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n224" [label="vue", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_12 {
+    label="tailwind";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n223" [label="tailwind", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_13 {
+    label="ssr-vue";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n220" [label="ssr-vue", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_14 {
+    label="example-external-component";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n222" [label="example-external-component", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_15 {
+    label="dep-import-type";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n221" [label="dep-import-type", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  }
+
+  }
+
+  subgraph cluster_16 {
+    label="Vite";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n19" [label="Vite", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  subgraph cluster_17 {
+    label="playground";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n21" [label="playground", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  subgraph cluster_18 {
+    label="worker";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n214" [label="worker", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_19 {
+    label="dep-to-optimize";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n217" [label="dep-to-optimize", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_20 {
+    label="dep-self-reference-url-worker";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n216" [label="dep-self-reference-url-worker", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_21 {
+    label="dep-cjs";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n215" [label="dep-cjs", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_22 {
+    label="wasm";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n213" [label="wasm", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_23 {
+    label="tsconfig-json-load-error";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n212" [label="tsconfig-json-load-error", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_24 {
+    label="tsconfig-json";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n211" [label="tsconfig-json", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_25 {
+    label="transform-plugin";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n210" [label="transform-plugin", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_26 {
+    label="tailwind-v3";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n209" [label="tailwind-v3", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_27 {
+    label="tailwind-sourcemap";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n208" [label="tailwind-sourcemap", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_28 {
+    label="tailwind";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n207" [label="tailwind", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_29 {
+    label="ssr-webworker";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n204" [label="ssr-webworker", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_30 {
+    label="worker-exports";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n206" [label="worker-exports", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_31 {
+    label="browser-exports";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n205" [label="browser-exports", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_32 {
+    label="ssr-resolve";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n198" [label="ssr-resolve", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_33 {
+    label="pkg-exports";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n203" [label="pkg-exports", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_34 {
+    label="entries";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n202" [label="entries", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_35 {
+    label="deep-import";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n199" [label="deep-import", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  subgraph cluster_36 {
+    label="foo";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n201" [label="foo", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_37 {
+    label="bar";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n200" [label="bar", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  }
+
+  subgraph cluster_38 {
+    label="ssr-pug";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n197" [label="ssr-pug", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_39 {
+    label="ssr-noexternal";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n194" [label="ssr-noexternal", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_40 {
+    label="require-external-cjs";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n196" [label="require-external-cjs", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_41 {
+    label="external-cjs";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n195" [label="external-cjs", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_42 {
+    label="ssr-html";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n193" [label="ssr-html", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_43 {
+    label="ssr-deps";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n167" [label="ssr-deps", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_44 {
+    label="ts-transpiled-exports";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n192" [label="ts-transpiled-exports", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_45 {
+    label="require-absolute";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n191" [label="require-absolute", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_46 {
+    label="read-file-content";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n190" [label="read-file-content", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_47 {
+    label="primitive-export";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n189" [label="primitive-export", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_48 {
+    label="pkg-exports";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n188" [label="pkg-exports", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_49 {
+    label="optimized-with-nested-external";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n187" [label="optimized-with-nested-external", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_50 {
+    label="optimized-cjs-with-nested-external";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n186" [label="optimized-cjs-with-nested-external", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_51 {
+    label="only-object-assigned-exports";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n185" [label="only-object-assigned-exports", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_52 {
+    label="object-assigned-exports";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n184" [label="object-assigned-exports", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_53 {
+    label="non-optimized-with-nested-external";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n183" [label="non-optimized-with-nested-external", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_54 {
+    label="no-external-css";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n182" [label="no-external-css", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_55 {
+    label="no-external-cjs";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n181" [label="no-external-cjs", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_56 {
+    label="nested-include";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n180" [label="nested-include", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_57 {
+    label="nested-external-cjs";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n179" [label="nested-external-cjs", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_58 {
+    label="nested-external";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n178" [label="nested-external", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_59 {
+    label="nested-exclude";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n177" [label="nested-exclude", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_60 {
+    label="module-condition";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n176" [label="module-condition", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_61 {
+    label="linked-no-external";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n175" [label="linked-no-external", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_62 {
+    label="import-builtin-cjs";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n174" [label="import-builtin-cjs", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_63 {
+    label="forwarded-export";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n173" [label="forwarded-export", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_64 {
+    label="external-using-external-entry";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n172" [label="external-using-external-entry", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_65 {
+    label="external-entry";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n171" [label="external-entry", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_66 {
+    label="define-property-exports";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n170" [label="define-property-exports", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_67 {
+    label="define-properties-exports";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n169" [label="define-properties-exports", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_68 {
+    label="css-lib";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n168" [label="css-lib", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_69 {
+    label="ssr-conditions";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n164" [label="ssr-conditions", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_70 {
+    label="no-external";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n166" [label="no-external", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_71 {
+    label="external";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n165" [label="external", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_72 {
+    label="ssr-alias";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n162" [label="ssr-alias", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_73 {
+    label="alias-original";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n163" [label="alias-original", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_74 {
+    label="ssr";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n161" [label="ssr", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_75 {
+    label="self-referencing";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n160" [label="self-referencing", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_76 {
+    label="resolve-linked";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n159" [label="resolve-linked", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_77 {
+    label="resolve-config";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n158" [label="resolve-config", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_78 {
+    label="resolve";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n133" [label="resolve", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_79 {
+    label="utf8-bom-package";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n157" [label="utf8-bom-package", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_80 {
+    label="sharp-dir";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n156" [label="sharp-dir", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_81 {
+    label="require-pkg-with-module-field";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n155" [label="require-pkg-with-module-field", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_82 {
+    label="inline-package";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n154" [label="inline-package", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_83 {
+    label="exports-with-module-condition-required";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n153" [label="exports-with-module-condition-required", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_84 {
+    label="exports-with-module-condition";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n152" [label="exports-with-module-condition", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_85 {
+    label="exports-with-module";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n151" [label="exports-with-module", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_86 {
+    label="exports-path";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n150" [label="exports-path", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_87 {
+    label="exports-legacy-fallback";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n148" [label="exports-legacy-fallback", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  subgraph cluster_88 {
+    label="dir";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n149" [label="dir", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_89 {
+    label="exports-from-root";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n146" [label="exports-from-root", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  subgraph cluster_90 {
+    label="nested";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n147" [label="nested", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_91 {
+    label="exports-env";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n145" [label="exports-env", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_92 {
+    label="exports-and-nested-scope";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n143" [label="exports-and-nested-scope", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  subgraph cluster_93 {
+    label="nested-scope";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n144" [label="nested-scope", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_94 {
+    label="custom-main-field";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n142" [label="custom-main-field", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_95 {
+    label="custom-condition";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n141" [label="custom-condition", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_96 {
+    label="custom-browser-main-field";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n140" [label="custom-browser-main-field", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_97 {
+    label="browser-module-field3";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n139" [label="browser-module-field3", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_98 {
+    label="browser-module-field2";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n138" [label="browser-module-field2", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_99 {
+    label="browser-module-field1";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n137" [label="browser-module-field1", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_100 {
+    label="browser-field-bare-import-success";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n136" [label="browser-field-bare-import-success", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_101 {
+    label="browser-field-bare-import-fail";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n135" [label="browser-field-bare-import-fail", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_102 {
+    label="browser-field";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n134" [label="browser-field", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_103 {
+    label="proxy-hmr";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n131" [label="proxy-hmr", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_104 {
+    label="other-app";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n132" [label="other-app", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_105 {
+    label="proxy-bypass";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n130" [label="proxy-bypass", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_106 {
+    label="preserve-symlinks";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n128" [label="preserve-symlinks", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_107 {
+    label="module-a";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n129" [label="module-a", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_108 {
+    label="preload";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n125" [label="preload", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_109 {
+    label="dep-including-a";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n127" [label="dep-including-a", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_110 {
+    label="dep-a";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n126" [label="dep-a", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_111 {
+    label="optimize-missing-deps";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n122" [label="optimize-missing-deps", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_112 {
+    label="multi-entry-dep";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n124" [label="multi-entry-dep", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_113 {
+    label="missing-dep";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n123" [label="missing-dep", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_114 {
+    label="optimize-deps-no-discovery";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n120" [label="optimize-deps-no-discovery", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_115 {
+    label="dep-no-discovery";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n121" [label="dep-no-discovery", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_116 {
+    label="optimize-deps";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n90" [label="optimize-deps", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_117 {
+    label="non-optimizable-include";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n119" [label="non-optimizable-include", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_118 {
+    label="nested-include";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n118" [label="nested-include", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_119 {
+    label="nested-exclude";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n117" [label="nested-exclude", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_120 {
+    label="longfilename";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n116" [label="longfilename", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_121 {
+    label="dep-with-optional-peer-dep-submodule";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n115" [label="dep-with-optional-peer-dep-submodule", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_122 {
+    label="dep-with-optional-peer-dep";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n114" [label="dep-with-optional-peer-dep", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_123 {
+    label="dep-with-dynamic-import";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n113" [label="dep-with-dynamic-import", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_124 {
+    label="dep-with-builtin-module-esm";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n112" [label="dep-with-builtin-module-esm", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_125 {
+    label="dep-with-builtin-module-cjs";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n111" [label="dep-with-builtin-module-cjs", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_126 {
+    label="dep-source-map-no-sources";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n110" [label="dep-source-map-no-sources", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_127 {
+    label="dep-relative-to-main";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n109" [label="dep-relative-to-main", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_128 {
+    label="dep-optimize-with-glob";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n108" [label="dep-optimize-with-glob", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_129 {
+    label="dep-optimize-exports-with-root-glob";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n107" [label="dep-optimize-exports-with-root-glob", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_130 {
+    label="dep-optimize-exports-with-glob";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n106" [label="dep-optimize-exports-with-glob", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_131 {
+    label="dep-not-js";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n105" [label="dep-not-js", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_132 {
+    label="dep-non-optimized";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n104" [label="dep-non-optimized", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_133 {
+    label="dep-node-env";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n103" [label="dep-node-env", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_134 {
+    label="dep-linked-include";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n102" [label="dep-linked-include", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_135 {
+    label="dep-linked";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n101" [label="dep-linked", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_136 {
+    label="dep-incompatible";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n100" [label="dep-incompatible", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_137 {
+    label="dep-esbuild-plugin-transform";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n99" [label="dep-esbuild-plugin-transform", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_138 {
+    label="dep-css-require";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n98" [label="dep-css-require", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_139 {
+    label="dep-cjs-with-assets";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n97" [label="dep-cjs-with-assets", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_140 {
+    label="dep-cjs-external-package-omit-js-suffix";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n96" [label="dep-cjs-external-package-omit-js-suffix", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_141 {
+    label="dep-cjs-compiled-from-esm";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n95" [label="dep-cjs-compiled-from-esm", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_142 {
+    label="dep-cjs-compiled-from-cjs";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n94" [label="dep-cjs-compiled-from-cjs", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_143 {
+    label="dep-cjs-browser-field-bare";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n93" [label="dep-cjs-browser-field-bare", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_144 {
+    label="dep-alias-using-absolute-path";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n92" [label="dep-alias-using-absolute-path", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_145 {
+    label="added-in-entries";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n91" [label="added-in-entries", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_146 {
+    label="object-hooks";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n89" [label="object-hooks", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_147 {
+    label="nested-deps";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n79" [label="nested-deps", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_148 {
+    label="test-package-f";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n88" [label="test-package-f", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_149 {
+    label="test-package-e";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n85" [label="test-package-e", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  subgraph cluster_150 {
+    label="test-package-e-included";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n87" [label="test-package-e-included", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_151 {
+    label="test-package-e-excluded";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n86" [label="test-package-e-excluded", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_152 {
+    label="test-package-d";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n83" [label="test-package-d", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  subgraph cluster_153 {
+    label="test-package-d-nested";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n84" [label="test-package-d-nested", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_154 {
+    label="test-package-c";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n82" [label="test-package-c", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_155 {
+    label="test-package-b";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n81" [label="test-package-b", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_156 {
+    label="test-package-a";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n80" [label="test-package-a", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_157 {
+    label="multiple-entrypoints";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n78" [label="multiple-entrypoints", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_158 {
+    label="module-graph";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n77" [label="module-graph", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_159 {
+    label="minify";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n76" [label="minify", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_160 {
+    label="lib";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n75" [label="lib", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_161 {
+    label="legacy";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n74" [label="legacy", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_162 {
+    label="json";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n72" [label="json", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_163 {
+    label="json-module";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n73" [label="json-module", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_164 {
+    label="js-sourcemap";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n70" [label="js-sourcemap", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_165 {
+    label="importee-pkg";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n71" [label="importee-pkg", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_166 {
+    label="import-assertion";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n68" [label="import-assertion", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_167 {
+    label="import-assertion-dep";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n69" [label="import-assertion-dep", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_168 {
+    label="html";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n66" [label="html", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_169 {
+    label="side-effects";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n67" [label="side-effects", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_170 {
+    label="hmr-ssr";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n65" [label="hmr-ssr", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_171 {
+    label="hmr";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n64" [label="hmr", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_172 {
+    label="glob-import";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n62" [label="glob-import", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_173 {
+    label="import-meta-glob-pkg";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n63" [label="import-meta-glob-pkg", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_174 {
+    label="fs-serve";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n61" [label="fs-serve", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_175 {
+    label="external";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n58" [label="external", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_176 {
+    label="dep-that-requires";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n60" [label="dep-that-requires", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_177 {
+    label="dep-that-imports";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n59" [label="dep-that-imports", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_178 {
+    label="extensions";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n57" [label="extensions", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_179 {
+    label="environment-react-ssr";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n56" [label="environment-react-ssr", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_180 {
+    label="env-nested";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n55" [label="env-nested", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_181 {
+    label="env";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n54" [label="env", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_182 {
+    label="dynamic-import-inline";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n53" [label="dynamic-import-inline", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_183 {
+    label="dynamic-import";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n51" [label="dynamic-import", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_184 {
+    label="pkg";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n52" [label="pkg", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_185 {
+    label="define";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n49" [label="define", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_186 {
+    label="commonjs-dep";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n50" [label="commonjs-dep", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_187 {
+    label="data-uri";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n48" [label="data-uri", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_188 {
+    label="css-sourcemap";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n47" [label="css-sourcemap", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_189 {
+    label="css-no-codesplit";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n46" [label="css-no-codesplit", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_190 {
+    label="css-lightningcss-root";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n45" [label="css-lightningcss-root", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_191 {
+    label="css-lightningcss-proxy";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n44" [label="css-lightningcss-proxy", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_192 {
+    label="css-lightningcss";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n43" [label="css-lightningcss", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_193 {
+    label="css-dynamic-import";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n42" [label="css-dynamic-import", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_194 {
+    label="css-codesplit-cjs";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n41" [label="css-codesplit-cjs", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_195 {
+    label="css-codesplit";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n40" [label="css-codesplit", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_196 {
+    label="css";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n31" [label="css", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  subgraph cluster_197 {
+    label="scss-proxy-dep-nested";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n39" [label="scss-proxy-dep-nested", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_198 {
+    label="scss-proxy-dep";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n38" [label="scss-proxy-dep", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_199 {
+    label="pkg-dep";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n37" [label="pkg-dep", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_200 {
+    label="css-proxy-dep-nested";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n36" [label="css-proxy-dep-nested", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_201 {
+    label="css-proxy-dep";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n35" [label="css-proxy-dep", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_202 {
+    label="css-js-dep";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n34" [label="css-js-dep", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_203 {
+    label="css-dep-exports";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n33" [label="css-dep-exports", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  subgraph cluster_204 {
+    label="css-dep";
+    style=filled; color="#21618C"; fillcolor="#21618C20";
+    "n32" [label="css-dep", shape=folder, fillcolor="#21618C", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_205 {
+    label="csp";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n30" [label="csp", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_206 {
+    label="client-reload";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n29" [label="client-reload", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_207 {
+    label="cli-module";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n28" [label="cli-module", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_208 {
+    label="cli";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n27" [label="cli", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_209 {
+    label="build-old";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n26" [label="build-old", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_210 {
+    label="backend-integration";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n25" [label="backend-integration", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_211 {
+    label="assets-sanitize";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n24" [label="assets-sanitize", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_212 {
+    label="assets";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n23" [label="assets", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  subgraph cluster_213 {
+    label="alias";
+    style=filled; color="#2874A6"; fillcolor="#2874A620";
+    "n22" [label="alias", shape=folder, fillcolor="#2874A6", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_214 {
+    label="docs";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n20" [label="docs", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+  }
+
+  }
+
+  subgraph cluster_215 {
+    label="Testcase";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n17" [label="Testcase", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+    "n236" [label="cargo (./Testcase): testcase v0.1.0", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n18" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_216 {
+    label="StringWizard";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n15" [label="StringWizard", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+    "n235" [label="cargo (./StringWizard): string_wizard_old v0.0.22", shape=ellipse, fillcolor="#EB984E", penwidth=1.5];
+    "n16" [label="Cargo.toml", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  subgraph cluster_217 {
+    label="RolldownViteEcoCi";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n14" [label="RolldownViteEcoCi", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  }
+
+  subgraph cluster_218 {
+    label="RolldownStarterStackblitz";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n13" [label="RolldownStarterStackblitz", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  }
+
+  subgraph cluster_219 {
+    label="RolldownPluginNodePolyfills";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n12" [label="RolldownPluginNodePolyfills", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  }
+
+  subgraph cluster_220 {
+    label="RolldownOnDeno";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n11" [label="RolldownOnDeno", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  }
+
+  subgraph cluster_221 {
+    label="Rolldown";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n5" [label="Rolldown", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+    "n233" [label="npm (./Rolldown): monorepo v0.0.1", shape=ellipse, fillcolor="#F4D03F", penwidth=1.5];
+  subgraph cluster_222 {
+    label="scripts";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n9" [label="scripts", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n234" [label="npm (./Rolldown/scripts): @codeeditorland-internal/scripts v0.0.1", shape=ellipse, fillcolor="#F4D03F", penwidth=1.5];
+    "n10" [label="package.json", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+    "n8" [label="package.json", shape=note, fillcolor="#FADBD8", penwidth=1];
+  subgraph cluster_223 {
+    label="docs";
+    style=filled; color="#2E86C1"; fillcolor="#2E86C120";
+    "n6" [label="docs", shape=folder, fillcolor="#2E86C1", penwidth=1.5];
+    "n232" [label="npm (./Rolldown/docs): @codeeditorland/docs v0.0.1", shape=ellipse, fillcolor="#F4D03F", penwidth=1.5];
+    "n7" [label="package.json", shape=note, fillcolor="#FADBD8", penwidth=1];
+  }
+
+  }
+
+  subgraph cluster_224 {
+    label="Repros";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n4" [label="Repros", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  }
+
+  subgraph cluster_225 {
+    label="Metric";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n3" [label="Metric", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  }
+
+  subgraph cluster_226 {
+    label="BenchmarkResultsStorage";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n2" [label="BenchmarkResultsStorage", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  }
+
+  subgraph cluster_227 {
+    label="Benchcases";
+    style=filled; color="#3498DB"; fillcolor="#3498DB20";
+    "n1" [label="Benchcases", shape=folder, fillcolor="#3498DB", penwidth=1.5];
+  }
+
+  }
+
+  "n0" -> "n1" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n2" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n3" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n4" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n5" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n5" -> "n6" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n6" -> "n7" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n5" -> "n8" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n5" -> "n9" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n9" -> "n10" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n11" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n12" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n13" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n14" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n15" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n15" -> "n16" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n17" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n17" -> "n18" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n19" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n19" -> "n20" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n19" -> "n21" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n22" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n23" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n24" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n25" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n26" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n27" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n28" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n29" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n30" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n31" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n31" -> "n32" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n31" -> "n33" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n31" -> "n34" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n31" -> "n35" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n31" -> "n36" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n31" -> "n37" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n31" -> "n38" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n31" -> "n39" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n40" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n41" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n42" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n43" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n44" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n45" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n46" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n47" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n48" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n49" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n49" -> "n50" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n51" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n51" -> "n52" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n53" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n54" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n55" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n56" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n57" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n58" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n58" -> "n59" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n58" -> "n60" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n61" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n62" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n62" -> "n63" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n64" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n65" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n66" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n66" -> "n67" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n68" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n68" -> "n69" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n70" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n70" -> "n71" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n72" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n72" -> "n73" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n74" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n75" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n76" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n77" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n78" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n79" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n79" -> "n80" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n79" -> "n81" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n79" -> "n82" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n79" -> "n83" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n83" -> "n84" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n79" -> "n85" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n85" -> "n86" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n85" -> "n87" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n79" -> "n88" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n89" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n90" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n91" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n92" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n93" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n94" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n95" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n96" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n97" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n98" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n99" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n100" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n101" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n102" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n103" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n104" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n105" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n106" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n107" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n108" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n109" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n110" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n111" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n112" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n113" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n114" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n115" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n116" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n117" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n118" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n90" -> "n119" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n120" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n120" -> "n121" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n122" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n122" -> "n123" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n122" -> "n124" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n125" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n125" -> "n126" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n125" -> "n127" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n128" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n128" -> "n129" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n130" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n131" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n131" -> "n132" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n133" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n134" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n135" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n136" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n137" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n138" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n139" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n140" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n141" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n142" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n143" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n143" -> "n144" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n145" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n146" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n146" -> "n147" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n148" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n148" -> "n149" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n150" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n151" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n152" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n153" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n154" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n155" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n156" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n133" -> "n157" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n158" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n159" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n160" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n161" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n162" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n162" -> "n163" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n164" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n164" -> "n165" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n164" -> "n166" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n167" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n168" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n169" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n170" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n171" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n172" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n173" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n174" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n175" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n176" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n177" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n178" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n179" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n180" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n181" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n182" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n183" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n184" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n185" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n186" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n187" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n188" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n189" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n190" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n191" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n167" -> "n192" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n193" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n194" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n194" -> "n195" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n194" -> "n196" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n197" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n198" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n198" -> "n199" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n199" -> "n200" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n199" -> "n201" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n198" -> "n202" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n198" -> "n203" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n204" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n204" -> "n205" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n204" -> "n206" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n207" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n208" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n209" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n210" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n211" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n212" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n213" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n21" -> "n214" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n214" -> "n215" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n214" -> "n216" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n214" -> "n217" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n0" -> "n218" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n218" -> "n219" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n219" -> "n220" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n220" -> "n221" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n220" -> "n222" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n219" -> "n223" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n219" -> "n224" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n219" -> "n225" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n219" -> "n226" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n219" -> "n227" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n219" -> "n228" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n219" -> "n229" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n219" -> "n230" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n219" -> "n231" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n6" -> "n232" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n5" -> "n233" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n9" -> "n234" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n15" -> "n235" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  "n17" -> "n236" [label="Contain", style=solid, color="blue", weight=2, arrowsize=0.8];
+  subgraph cluster_legend {
+    label="Legend"; fontsize=14; style=dashed; color=gray;
+    "dir" [label="Directory", shape=folder, fillcolor="#5DADE2"];
+    "file" [label="File", shape=note, fillcolor="#FADBD8"];
+    "pkg" [label="Package", shape=ellipse, fillcolor="#EB984E"];
+    "ext" [label="External", shape=trapezium, fillcolor="#EC7063"];
+    "dir" -> "file" [label="Contain", style=solid, color=blue];
+    "pkg" -> "ext" [label="Dependency", style=dashed, color=red];
+  }
+}
