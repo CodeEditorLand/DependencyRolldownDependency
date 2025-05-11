@@ -1,64 +1,51 @@
 [submodule "Metric"]
 path = Metric
 url = ssh://git@github.com/CodeEditorLand/Metric.git
-ignore = all
 
 [submodule "BenchmarkResultsStorage"]
 path = BenchmarkResultsStorage
 url = ssh://git@github.com/CodeEditorLand/BenchmarkResultsStorage.git
-ignore = all
 
 [submodule "Repros"]
 path = Repros
 url = ssh://git@github.com/CodeEditorLand/Repros.git
-ignore = all
 
 [submodule "RolldownStarterStackblitz"]
 path = RolldownStarterStackblitz
 url = ssh://git@github.com/CodeEditorLand/RolldownStarterStackblitz.git
-ignore = all
 
 [submodule "RolldownViteEcoCi"]
 path = RolldownViteEcoCi
 url = ssh://git@github.com/CodeEditorLand/RolldownViteEcoCi.git
-ignore = all
 
 [submodule "Testcase"]
 path = Testcase
 url = ssh://git@github.com/CodeEditorLand/Testcase.git
-ignore = all
 
 [submodule "RolldownOnDeno"]
 path = RolldownOnDeno
 url = ssh://git@github.com/CodeEditorLand/RolldownOnDeno.git
-ignore = all
 
 [submodule "RolldownPluginNodePolyfills"]
 path = RolldownPluginNodePolyfills
 url = ssh://git@github.com/CodeEditorLand/RolldownPluginNodePolyfills.git
-ignore = all
 
 [submodule "StringWizard"]
 path = StringWizard
 url = ssh://git@github.com/CodeEditorLand/StringWizard.git
-ignore = all
 
 [submodule "VitePluginVue"]
 path = VitePluginVue
 url = ssh://git@github.com/CodeEditorLand/VitePluginVue.git
-ignore = all
 
 [submodule "Rolldown"]
 path = Rolldown
 url = ssh://git@github.com/CodeEditorLand/Rolldown.git
-ignore = all
 
 [submodule "Vite"]
 path = Vite
 url = ssh://git@github.com/CodeEditorLand/Vite.git
-ignore = all
 
 [submodule "Benchcases"]
 path = Benchcases
 url = ssh://git@github.com/CodeEditorLand/Benchcases.git
-ignore = all
